@@ -49,7 +49,7 @@ def password_initiator(username, keyring_prefix, do_not_save_password, timeout=3
     magic and it'll spit out the vetted password.
     It will only check Active Directory users to prevent you from locking yourself out.
 
-    :param username: User Credential. expected format: Acive directory user- user@wetafx.co.nz, local user - user
+    :param username: User Credential. expected format: Acive directory user- user@example.com, local user - user
     :type username: str
     :param keyring_prefix: Prefix that'll help create a unique identifer for the key that'll go on your
     kernel keyring
